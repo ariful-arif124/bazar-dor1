@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-// import UserInfo from "./UserInfo";
+import UserInfo from "./UserInfo";
 
 const Header = () => {
 
@@ -60,53 +59,9 @@ const Header = () => {
 
           </div>
 
- <div
-          className="
-            flex
-            gap-2
-            items-center
-          "
-        >
-          <Link
-            href="/signin"
-            className="
-              rounded-md
-              border
-              border-gray-300
-              px-2
-              sm:px-3
-              py-1
-              text-xs
-              sm:text-sm
-              text-gray-700
-              hover:border-green-600
-              hover:text-green-700
-              whitespace-nowrap
-            "
-          >
-            সাইন ইন
-          </Link>
 
-          <Link
-            href="/signup"
-            className="
-              rounded-md
-              bg-green-600
-              px-2
-              sm:px-3
-              py-1
-              text-xs
-              sm:text-sm
-              text-white
-              hover:bg-green-700
-              whitespace-nowrap
-            "
-          >
-            সাইন আপ
-          </Link>
-        </div>
 
-          {/* <UserInfo /> */}
+          <UserInfo />
 
 
         </div>

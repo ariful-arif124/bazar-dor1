@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Bengali } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
-// import { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
 import "./globals.css";
 
@@ -92,7 +92,7 @@ export default async function RootLayout({
         <Marquee products={products} />
         {children}
         <Footer />
-        {/* <Toaster position="top-center" /> */}
+        <Toaster position="top-center" />
       </body>
     </html>
   );

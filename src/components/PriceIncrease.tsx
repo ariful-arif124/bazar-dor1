@@ -49,6 +49,7 @@ const PriceIncrease = async () => {
         .slice(0, 6);
 
 
+
     if (increasedProducts.length === 0) {
         return null;
     }
