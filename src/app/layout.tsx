@@ -8,7 +8,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Navlinks from "@/components/NavLinks";
 import Marquee from "@/components/Marquee";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 const bengaliFont = Noto_Sans_Bengali({
   subsets: ["bengali", "latin"],
@@ -91,7 +91,7 @@ export default async function RootLayout({
         <Navlinks />
         <Marquee products={products} />
         {children}
-        {/* <Footer /> */}
+        <Footer />
         {/* <Toaster position="top-center" /> */}
       </body>
     </html>
